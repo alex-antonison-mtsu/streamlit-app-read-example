@@ -25,7 +25,7 @@ with st.echo(code_location="below"):
         from dear_database.public.demographic 
         """
 
-        with engine.connect() as conn:
+        with _engine.connect() as conn:
             queried_df = pd.read_sql(query, con=conn)
 
         return queried_df
