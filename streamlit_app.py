@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine
-from database import return_engine()
+from database import return_engine
 
 """
 # Welcome to Streamlit!
